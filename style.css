@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(0, 0, 33);
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    color:honeydew
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(11, 11, 50);
+    height: 80px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: honeydew;
+}
+
+nav ul li a:hover{
+    color: rgb(167, 106, 224);
+    font-size: 1.05rem;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+/* //////////////////////////////////////// Main secton */
+
+.text_grey{
+    color: gray;
+}
+
+.purple{
+    color: rgb(157, 67, 241);
+}
+
+#element{
+    color: rgb(199, 138, 255);
+    /* font-size: 2rem; */
+    font-weight: 600;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 77px 0;
+    align-items: center;
+}
+
+.first > div{    /* "first" ke andar phele div ko hi ye proprties milegi */
+    width: 35%;
+    
+}
+
+.first .leftSection{
+    /* background-color: rosybrown */
+    font-size: 2.4rem;
+}
+
+.first .rightSection img{
+    /* background-color: rosybrown; */
+    width: 80%;
+}
+
+main hr{
+    border: none;
+    background-color: rgb(174, 123, 222);
+    height: 0.8px;
+    margin-top: 50px;
+    margin-bottom: 31px;
+    margin-left: 100px;
+    margin-right: 130px;
+}
+
+/* ///////////////////////////////   section 2 */
+
+.secondSection{
+    max-width: 80vw;
+    margin: 0 auto;
+}
+    
+
+
